@@ -1,0 +1,418 @@
+/* Navbar container */
+.navbar {
+  /*background-color: #333;*/
+  background: rgba(1,1,1,0.8);
+  font-family: Garamond;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0;
+  width: 100%;
+  z-index: 4;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+input, select, button{
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a pinky background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  /*background-color: blue;*/
+  background: rgba(72, 158, 219, 0.6);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Page content */
+.content {
+  padding: 12px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#bgimg-1, #bgimg-2, #bgimg-3, #news, div.background, .nancybackground {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bgimg-1 {
+  background-image: url("sky.jpg");
+  min-height: 400px;
+}
+
+#bgimg-2 {
+  background-image: url("land.jpg");
+  min-height: 400px;
+}
+
+#bgimg-3 {
+  background-image: url("ocean.jpg");
+  min-height: 400px;
+}
+
+.abc{
+  position: absolute;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.bgimg1 {
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?cs=srgb&dl=grayscale-photo-of-computer-laptop-near-white-notebook-and-169573.jpg&fm=jpg");
+
+    /* Set a specific height */
+    min-height: 700px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#centered_cap1 {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    background-color: transparent;
+    outline: none;
+    color : black;
+    cursor: pointer;
+}
+
+#centered_cap2 {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    background-color: transparent;
+    outline: none;
+    color : black;
+    cursor: pointer;
+}
+
+#centered_cap3 {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+}
+
+/* text */
+.title {
+  font-size: 80px;
+  color: rgba(18, 76, 184,1);
+  background-color: rgba(211, 217, 227, 0.6);
+  font-family: "Garamond", "Baskerville Old Face", serif;
+}
+.heading {
+  font-size: 50px;
+  color: rgba(72, 158, 219, 1);
+  font-family: "Garamond", "Baskerville Old Face", serif;
+}
+
+.indent{
+  text-indent: 50px;
+  font-size: 20px;
+  color: black;
+  font-family: "Garamond", "Baskerville Old Face", serif;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.bgimg2 {
+    /* The image used */
+    background-image: url("https://woburnpubliclibrary.org/wp-content/uploads/2019/08/Teal-UNDATED-Girls-Who-Code-TV-Size.png");
+
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg3 {
+    background-image: url("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg4 {
+    background-image: url("https://i.pinimg.com/originals/a5/74/55/a574557d0afc633db35f8a7628af0afb.jpg");
+
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg5 {
+    background-image: url("https://i.pinimg.com/originals/a5/74/55/a574557d0afc633db35f8a7628af0afb.jpg");
+
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg6 {
+    background-image: url("HourofCode.jpg");
+
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg7 {
+    background-image: url("https://i.pinimg.com/originals/a5/74/55/a574557d0afc633db35f8a7628af0afb.jpg");
+
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg8 {
+    background-image: url("https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?cs=srgb&dl=grayscale-photo-of-computer-laptop-near-white-notebook-and-169573.jpg&fm=jpg");
+
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg9 {
+    background-image: url("https://woburnpubliclibrary.org/wp-content/uploads/2019/08/Teal-UNDATED-Girls-Who-Code-TV-Size.png");
+
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg10 {
+    background-image: url("club.jpeg");
+
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg11 {
+    background-image: url("https://i.pinimg.com/originals/a5/74/55/a574557d0afc633db35f8a7628af0afb.jpg");
+
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    text-align: right;
+    font-size: 20px;
+    color: black;
+    font-family: "Garamond", "Baskerville Old Face", serif;
+    padding-right: 30px;
+    padding-left: 60%;
+}
+
+.img {
+    max-width: 400px;
+}
+
+.imgcolumn {
+    align: left;
+    max-width: 80%;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 35%;
+}
+
+.right {
+  width: 65%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.subheading {
+  padding-left: 30px;
+  font-size: 30px;
+  color: rgba(103, 176, 207, 1);
+  font-family: "Garamond", "Baskerville Old Face", serif;
+}
+
+.subsubheading {
+    padding-left: 30px;
+    font-size: 20px;
+    color: rgba(103, 176, 207, .8);
+    font-family: "Garamond", "Baskerville Old Face", serif;
+}
+
+.pad {
+    padding-left: 30px;
+    font-size: 20px;
+    color: black;
+    font-family: "Garamond", "Baskerville Old Face", serif;
+}
