@@ -412,6 +412,7 @@ input, select, button{
 
 .pad {
     padding-left: 30px;
+    padding-bottom: 30px;
     font-size: 20px;
     color: black;
     font-family: "Garamond", "Baskerville Old Face", serif;
