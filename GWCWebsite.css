@@ -366,7 +366,7 @@ input, select, button{
     color: black;
     font-family: "Garamond", "Baskerville Old Face", serif;
     padding-right: 30px;
-    padding-left: 60%;
+    padding-left: 30px;
 }
 
 .img {
