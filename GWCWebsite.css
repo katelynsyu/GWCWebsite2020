@@ -348,19 +348,6 @@ input, select, button{
     background-size: cover;
 }
 
-.bgimg11 {
-    background-image: url("https://i.pinimg.com/originals/a5/74/55/a574557d0afc633db35f8a7628af0afb.jpg");
-
-    /* Set a specific height */
-    min-height: 400px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .footer {
     font-size: 20px;
     color: black;
