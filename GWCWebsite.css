@@ -310,7 +310,7 @@ input, select, button{
 }
 
 .bgimg8 {
-    background-image: url("https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?cs=srgb&dl=grayscale-photo-of-computer-laptop-near-white-notebook-and-169573.jpg&fm=jpg");
+    background-image: url("resources.jpeg");
 
     /* Set a specific height */
     min-height: 400px;
