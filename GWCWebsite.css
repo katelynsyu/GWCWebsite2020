@@ -258,7 +258,7 @@ input, select, button{
 }
 
 .bgimg4 {
-    background-image: url("work.jpeg");
+    background-image: url("work.jpg");
 
     /* Set a specific height */
     min-height: 400px;
@@ -271,7 +271,7 @@ input, select, button{
 }
 
 .bgimg5 {
-    background-image: url("spotlight.jpg");
+    background-image: url("spotlight.JPG");
 
     /* Set a specific height */
     min-height: 400px;
