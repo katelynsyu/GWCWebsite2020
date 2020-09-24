@@ -336,6 +336,20 @@ input, select, button{
 }
 
 .bgimg10 {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/55521cc5e4b0e3bbbdd84a3a/1549753492603-SSC8GTLDIQ06F6GJ0R8Q/ke17ZwdGBToddI8pDm48kIyrSAlZw0scgxWGiTRYQWl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UQDXLzkH-CZ-7QKrQsh4p8lMtwqAKlza9eqEnfdUjYfAWTUnGzk3zJjDKAJuKMwn7w/close+up+cheese+and+charcuterie+spread+from+cooking+with+cocktail+rings
+");
+
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg11 {
     background-image: url("club.jpeg");
 
     /* Set a specific height */
