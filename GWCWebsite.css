@@ -336,7 +336,7 @@ input, select, button{
 }
 
 .bgimg10 {
-    background-image: url("club.jpeg");
+    background-image: url("cheeseboard.jpeg");
 
     /* Set a specific height */
     min-height: 400px;
@@ -349,7 +349,7 @@ input, select, button{
 }
 
 .bgimg11 {
-    background-image: url("cheeseboard.jpeg");
+    background-image: url("club.jpeg");
 
     /* Set a specific height */
     min-height: 400px;
